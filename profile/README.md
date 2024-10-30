@@ -27,6 +27,7 @@ In addition, the facilitation of alignment with relevant current cybersecurity r
 * **Critical Entities Resilience Directive (CER)**: EME addresses the obligation to report incidents and define response procedures in case of cyber attacks to AI and IoT relevant components of the digital infrastructure of a smart city, thus ensuring business continuity
 * **Cyber Resilience Act (CRA)**: A DevSecOps approach has been adopted for the development, testing and release of EME, incl. security testing (SAST, DAST) to ensure cybersecurity resilience of the produced software.
 * **Cyber Solidarity Act**: The IRIS platform offers a variety of cyber threat detection tools interoperating with the distributed Enhanced MeliCERTes ecosystem, instances of which could be used by cross-border SOCs, for timely sharing detected threats and incidents among them.
+  
 <img width="1118" alt="IRIS-EME-NIS2" src="https://github.com/user-attachments/assets/1f78ef3c-cb96-4454-8699-6d583ef158fe">
 
 The Enhanced MeliCERTes Ecosystem (EME) is composed of: 
