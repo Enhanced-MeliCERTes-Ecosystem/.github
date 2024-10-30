@@ -27,8 +27,8 @@ In addition, the facilitation of alignment with relevant current cybersecurity r
 * **Critical Entities Resilience Directive (CER)**: EME addresses the obligation to report incidents and define response procedures in case of cyber attacks to AI and IoT relevant components of the digital infrastructure of a smart city, thus ensuring business continuity
 * **Cyber Resilience Act (CRA)**: A DevSecOps approach has been adopted for the development, testing and release of EME, incl. security testing (SAST, DAST) to ensure cybersecurity resilience of the produced software.
 * **Cyber Solidarity Act**: The IRIS platform offers a variety of cyber threat detection tools interoperating with the distributed Enhanced MeliCERTes ecosystem, instances of which could be used by cross-border SOCs, for timely sharing detected threats and incidents among them.
-  
-<img width="1118" alt="IRIS-EME-NIS2" src="https://github.com/user-attachments/assets/1f78ef3c-cb96-4454-8699-6d583ef158fe">
+
+<img width="943" alt="IRIS-EME-NIS2" src="https://github.com/user-attachments/assets/0304f190-8e4d-4962-9c60-3a825c102813">
 
 The Enhanced MeliCERTes Ecosystem (EME) is composed of: 
 * **The Enhanced MeliCERTes Ecosystem Platform**, that enhances threat intelligence and incident sharing with secure communication and collaboration features and presents a customized SIEM and dashboard for the two target users, [CERTs/CSIRTs](https://www.youtube.com/watch?v=4o5VuyfWAiE) and [Critical Infrastructure Operations](https://www.youtube.com/watch?v=oJFDFpszfX0). The platform has been developed/is owned by [Netcompany-Intrasoft](https://www.netcompany-intrasoft.com/) and its **Research and Innovation Development Dept.** and is offered as open source software, under [EUPL 1.2 license](https://commission.europa.eu/content/european-union-public-licence_en). The main contact persons for the Enhanced MeliCERTes Platform are [Dr. Sofia Tsekeridou](https://www.linkedin.com/in/sofia-tsekeridou-3928b12/), e-mail: sofia.tsekeridou@netcompany.com and Mr. Konstantinos Chisiridis, e-mail: konstantinos.chisiridis@netcompany.com
@@ -38,7 +38,8 @@ The Enhanced MeliCERTes Ecosystem (EME) is composed of:
 
 ## Other IRIS Project Exploitable Service Bundles
 Further from the EME Service Bundle presented above, the IRIS project has resulted in another three Service Bundles, as shown collectively in the following figure along with a summary on the exploitation strategy per case.
-<img width="947" alt="IRIS-ServiceBundles" src="https://github.com/user-attachments/assets/012e8a2a-4ab3-496f-8dd4-bf0e29357de7">
+
+<img width="663" alt="IRIS-ServiceBundles-2" src="https://github.com/user-attachments/assets/ccd54251-b763-459d-a46a-60896b41a8aa">
 
 For anyone interested to receive more information on the proprietary primarily tools that comprise the other three Service Bundles, we list the developers/owners of these tools per Service Bundle along with their main person contact details: 
 
