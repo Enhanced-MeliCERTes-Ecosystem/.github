@@ -30,28 +30,30 @@ In addition, the facilitation of alignment with relevant current cybersecurity r
 <img width="1118" alt="IRIS-EME-NIS2" src="https://github.com/user-attachments/assets/1f78ef3c-cb96-4454-8699-6d583ef158fe">
 
 The Enhanced MeliCERTes Ecosystem (EME) is composed of: 
-* **The Enhanced MeliCERTes Ecosystem Platform**, that enhances threat intelligence and incident sharing with secure communication and collaboration features and presents a customized SIEM and dashboard for the two target users, [CERTs/CSIRTs](https://www.youtube.com/watch?v=4o5VuyfWAiE) and [Critical Infrastructure Operations](https://www.youtube.com/watch?v=oJFDFpszfX0). The platform has been developed/is owned by [Netcompany-Intrasoft](https://www.netcompany-intrasoft.com/) and its **Research and Innovation Development Dept.** and is offered as open source software. The main contact persons for the Enhanced MeliCERTes Platform are [Dr. Sofia Tsekeridou](https://www.linkedin.com/in/sofia-tsekeridou-3928b12/), e-mail: sofia.tsekeridou@netcompany.com and Mr. Konstantinos Chisiridis, e-mail: konstantinos.chisiridis@netcompany.com
+* **The Enhanced MeliCERTes Ecosystem Platform**, that enhances threat intelligence and incident sharing with secure communication and collaboration features and presents a customized SIEM and dashboard for the two target users, [CERTs/CSIRTs](https://www.youtube.com/watch?v=4o5VuyfWAiE) and [Critical Infrastructure Operations](https://www.youtube.com/watch?v=oJFDFpszfX0). The platform has been developed/is owned by [Netcompany-Intrasoft](https://www.netcompany-intrasoft.com/) and its **Research and Innovation Development Dept.** and is offered as open source software, under [EUPL 1.2 license](https://commission.europa.eu/content/european-union-public-licence_en). The main contact persons for the Enhanced MeliCERTes Platform are [Dr. Sofia Tsekeridou](https://www.linkedin.com/in/sofia-tsekeridou-3928b12/), e-mail: sofia.tsekeridou@netcompany.com and Mr. Konstantinos Chisiridis, e-mail: konstantinos.chisiridis@netcompany.com
 * **The APIs for Advanced Threat Intelligence Orchestrator**, for integrating threat detection and cyber-threat intelligence components to automate cyber-incident detection, reporting, and response. The know-how and expertise on the customization of the orchestrator workflows and relevant APIs, using the core open source software, Shuffle, in accordance to which other threat and attack detection tools are deployed at the infrastructure in question, is offered by **ICCS**. The main contact person is Ms. Giovana Bilali, e-mail: giovana.bilali@iccs.gr
-* **Collaborative Threat Intelligence Sharing and Storage**, which automatically collects and enhances threat intelligence, providing a secure GUI for data presentation, editing, and configuration, that can be used optionally in EME, providing advanced such functionalities. This component has been developed/is owned by **CERTH** and remains proprietary. The main contact persons are Dr. Eleni Darra, e-mail: e.darra@iti.gr, and Dr. Dimitris Kavalieros, e-mail: dim.kavallieros@gmail.com
-
-The Enhanced MeliCERTes Ecosystem Platform is offered as open source source, under [EUPL 1.2 license](https://commission.europa.eu/content/european-union-public-licence_en),  for the EME Platform and ATIO of the EME Service Bundle, which are the mandatory components of the Service Bundle
-The ontology-driven enrichment module of threat reports, which is an optional module on top of MISP provided by CERTH will remain closed source, with proprietary license, and will be exploited commercially. 
-
-
-
-
-
+* **Collaborative Threat Intelligence Sharing and Storage**, which automatically collects and enhances threat intelligence, providing a secure GUI for data presentation, editing, and configuration, that can be used optionally in EME, on top of MISP, providing advanced such functionalities. This component has been developed/is owned by **CERTH** and remains proprietary. The main contact persons are Dr. Eleni Darra, e-mail: e.darra@iti.gr, and Dr. Dimitris Kavalieros, e-mail: dim.kavallieros@gmail.com
 
 
 ## Other IRIS Project Exploitable Service Bundles
+Further from the EME Service Bundle presented above, the IRIS project has resulted in another three Service Bundles, as shown collectively in the following figure along with a summary on the exploitation strategy per case.
+<img width="947" alt="IRIS-ServiceBundles" src="https://github.com/user-attachments/assets/012e8a2a-4ab3-496f-8dd4-bf0e29357de7">
 
+For anyone interested to receive more information on the proprietary primarily tools that comprise the other three Service Bundles, we list the developers/owners of these tools per Service Bundle along with their main person contact details: 
 
+The **Automated Threat Analytics (ATA) Service Bundle**, is composed of: 
+* Risk and Vulnerability Assessment modules: VDM (ATOS, Rodrigo Diaz and Susana Gonzalez Zarzosa) and BINSEC (CEA, Sebastien Bardin and Michael Marcozzi)
+* AI Threat Analytics and Detection Engines: NIGHTWATCH (CLS, Irene Karapistoli), MAIGUARD (CEA, Gil Quijano Jesus-Javier and Michael Marcozzi), SiVi (SID, Charalampos Eleftheriadis, Zisis Batsos and Harris Saoulidis)
+* Risk-based Response and Self-Recovery Tool (CLS, Irene Karapistoli)
+* Digital Twin Honeypot Deception Models (SID, Charalampos Eleftheriadis, Zisis Batzos)
 
-| Service Bundle                             | Type                                                   | Joint Owners & Contacts                                            |
-| ------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------ |
-| **Automated Threat Analytics (ATA), composed of: Risk and Vulnerability Assessment modules VDM (ATOS) and BINSEC (CEA), AI Threat Analytics and Detection Engines  NIGHTWATCH (CLS), MAIGUARD (CEA), SiVi (SID), Risk-based Response and Self-Recovery Tool (CLS), Digital Twin Honeypot Deception Models (SID)** | Proprietary       | 
-| **VUE_APP_EME_CLIENT_TYPE**                | The type of user. Values can be CERT or CI             |
-| **VUE_APP_EME_PULL_PERIOD**                | Pull period in seconds ( 5 is recommended)             |
+The **Virtual Cyber Range training (VCR) Service Bundle**, is composed of: 
+* IRIS Cybersecurity Exercises and Training Scenarios (CyberTrap), KEMEA, Nikos Kapsalis and Sotiris Spantideas
+* IRIS Cyber Range Environment Platform, THALES, Bruno Vidalenc
+  
+The **Add-ons Services Service Bundle (DPA module)**, which is offered for free to CERTs/CSIRTs upon request, is composed of: 
+* DLT-based Control Services for Accountability, Traceability, and Auditing, INOV, Goncalo Cadete and TUD, Katai Liang
+* Secure Crypto Functions for Data Management, INOV, Goncalo Cadete and TUD, Katai Liang
 
 
 
